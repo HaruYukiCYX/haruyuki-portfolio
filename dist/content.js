@@ -1,6 +1,6 @@
 // Confirmed public details only. Blank personal links stay hidden.
 window.PORTFOLIO = {
-  name: 'Yuxuan Chen', email: '', linkedin: '', github: 'https://github.com/HaruYukiCYX', cv: 'cv.html',
+  name: 'Yuxuan Chen', email: '', linkedin: 'https://www.linkedin.com/in/yuxuan-chen-822b98424/', github: 'https://github.com/HaruYukiCYX', cv: 'cv.html',
   education: {
     mastersDates: 'Sep 2026 – Sep 2027 (expected)',
     bachelorInstitution: 'Nanjing University of Information Science & Technology',
