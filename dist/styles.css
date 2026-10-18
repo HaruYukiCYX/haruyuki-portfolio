@@ -91,3 +91,7 @@ footer{padding-top:40px}.signature{padding-top:32px}
 /* Internal electronics are evidence, so preserve the entire portrait photograph. */
 .robotics-image.is-electronics img{object-fit:contain;object-position:center;mix-blend-mode:normal;background:transparent;padding:0}
 .flow-group figure:nth-child(4) img{object-fit:contain;object-position:center}
+
+/* The exploded assembly now carries a real alpha channel. Preserve component colours. */
+.robotics-image.is-diagram img{mix-blend-mode:normal;object-position:center}
+.flow-group figure:nth-child(6) img{mix-blend-mode:normal}

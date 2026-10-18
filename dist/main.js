@@ -49,7 +49,7 @@ for (const flow of document.querySelectorAll('.hardware-flow')) {
 const robotViews = {
   assembled: {src:'assets/myzooids-cover-cutout.webp', en:'The finished robot, small enough to hold.', zh:'组装完成的机器人，刚好握在手里。', alt:'Completed orange Myzooids robot held in a hand'},
   electronics: {src:'assets/myzooids-electronics.jpg', en:'Under the shell: the assembled PCB and electronics.', zh:'打开外壳，看看组装后的 PCB 和电子元件。', alt:'Myzooids assembled PCB and internal electronics'},
-  structure: {src:'assets/myzooids-structure.png', en:'How the chassis, motors, battery and PCB fit together.', zh:'底盘、电机、电池和 PCB 如何装在一起。', alt:'Exploded mechanical assembly of Myzooids'}
+  structure: {src:'assets/myzooids-structure-transparent.webp', en:'How the chassis, motors, battery and PCB fit together.', zh:'底盘、电机、电池和 PCB 如何装在一起。', alt:'Exploded mechanical assembly of Myzooids'}
 };
 let activeRobotView = 'assembled';
 window.updateRobotCaption = () => {
