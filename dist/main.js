@@ -62,6 +62,7 @@ for (const button of document.querySelectorAll('[data-view]')) {
     const view = robotViews[activeRobotView], image = document.getElementById('robot-feature');
     image.src = view.src; image.alt = view.alt;
     image.closest('figure').classList.toggle('is-diagram', activeRobotView === 'structure');
+    image.closest('figure').classList.toggle('is-electronics', activeRobotView === 'electronics');
     for (const control of document.querySelectorAll('[data-view]')) control.setAttribute('aria-pressed', String(control === button));
     window.updateRobotCaption();
   });

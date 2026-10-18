@@ -87,3 +87,7 @@ footer{padding-top:40px}.signature{padding-top:32px}
 .education{padding-block:25px 30px}.education>h2{margin-bottom:25px}.timeline{gap:28px}.education-entry{grid-template-columns:1fr;gap:15px}.manchester-mark{width:190px}.setu-mark{width:130px}.nuist-mark{width:84px}.dual-marks{gap:20px}.timeline-heading{display:block}.date{white-space:normal}
 .section-heading{padding-bottom:18px}.section-heading h2{font-size:var(--head);max-width:12ch}.work-intro{margin-top:14px}.project-card{padding-block:25px 38px}.project-title{margin-bottom:20px}.device-showcase{min-height:0}.design-notes{grid-template-columns:1fr;gap:18px;margin-top:28px}#myzooids{padding-top:32px}.hardware-flow{margin-top:28px}.about{padding-block:40px;grid-template-columns:1fr;gap:18px}.signature{padding-top:28px}
 }
+
+/* Internal electronics are evidence, so preserve the entire portrait photograph. */
+.robotics-image.is-electronics img{object-fit:contain;object-position:center;mix-blend-mode:normal;background:transparent;padding:0}
+.flow-group figure:nth-child(4) img{object-fit:contain;object-position:center}
