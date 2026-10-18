@@ -26,3 +26,7 @@ The portfolio includes a portrait, bio, skills, research interests, GitHub and p
 ## Design
 
 The October redesign uses Archivo, forest green and pale lime, large typography, an interactive Myzooids assembly viewer, a moving hardware gallery and a haruyuki signature. Font licence: `dist/assets/Archivo-OFL.txt`. Respect `prefers-reduced-motion`. `dist/main.js` contains the image-view controls and progressive motion; the content stays readable without JavaScript.
+
+Manchester white logo: official transparent asset from https://assets.manchester.ac.uk/corporate/images/design/logo-university-of-manchester-allwhite.png (brand reference: https://www.staffnet.manchester.ac.uk/brand/visual-identity/logo/).
+
+Portrait and hardware cover have transparent cutout variants made with the built-in image tool. The original files remain alongside them, and the hardware gallery continues to use original photographs. White diagram grounds are blended into the light chapter with CSS multiply; interface screenshots retain their actual screen content.

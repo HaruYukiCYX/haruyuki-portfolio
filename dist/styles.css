@@ -31,3 +31,18 @@
 @keyframes section-arrives{from{transform:translateY(24px);opacity:0}to{transform:none;opacity:1}}
 @keyframes image-arrives{from{transform:scale(.975);opacity:.4}to{transform:none;opacity:1}}
 @media(hover:hover) and (pointer:fine){.button:hover{transform:translateY(-3px)}summary:hover:after{transform:rotate(90deg)}.view-controls button:hover{transform:translateY(-2px)}}
+
+/* Let existing transparent assets sit directly on their chapter ground. */
+.hero-work,.device-showcase,.university-marks{background:transparent}
+.hero-work{color:var(--ink);overflow:visible}
+.hero-work>img{padding:0}
+.hero-work-caption{position:static;display:none}
+.device-showcase{padding:12px 0}
+.university-marks{padding:0;align-items:center}
+.setu-mark,.nuist-mark{filter:brightness(0) invert(1)}
+.robotics-image.is-diagram img{background:transparent;mix-blend-mode:multiply;padding:0}
+.flow-group .flow-diagram img{background:transparent;mix-blend-mode:multiply;padding:0}
+.flow-group figure:first-child img{background:transparent;padding:0}
+@media(max-width:650px){.device-showcase{padding:12px 0}.university-marks{padding:0}}
+.hero-work{min-width:0}
+.hero-work>img{min-width:0;height:auto;max-width:100%}
