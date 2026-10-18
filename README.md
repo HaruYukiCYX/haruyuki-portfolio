@@ -20,3 +20,5 @@ All asset paths are relative, so the same files support both a user site and a p
 Preview locally with `python3 -m http.server 4173 --directory dist`.
 
 Only the public portfolio and its referenced assets are included. School logos identify the author's educational institutions. Myzooids engineering images are from the author's supplied graduation materials.
+
+The portfolio includes a portrait, bio, skills, research interests, GitHub and printable online CV links. Edit `dist/cv.html` for the public CV and `docs/yeeme.md` / `docs/myzooids.md` for supporting project notes. LinkedIn remains optional in `dist/content.js`.
