@@ -46,3 +46,44 @@
 @media(max-width:650px){.device-showcase{padding:12px 0}.university-marks{padding:0}}
 .hero-work{min-width:0}
 .hero-work>img{min-width:0;height:auto;max-width:100%}
+
+/* Portrait-led introduction, useful content in place of the project preview. */
+.hero-rails{grid-template-columns:minmax(230px,.9fr) minmax(300px,1.25fr) minmax(300px,1.2fr);gap:clamp(28px,4vw,60px);align-items:start}
+.portrait-rail{align-self:stretch;justify-content:flex-end}
+.profile-portrait{height:360px;width:100%;max-width:300px;object-fit:contain;object-position:bottom left}
+.hero-intro{padding:0;gap:22px;min-height:360px;grid-column:auto}
+.welcome-copy>p:last-child{max-width:40ch}
+.hero-focus{min-width:0}.hero-focus .research-interests{margin-top:0;max-width:40ch}
+.hero-focus .research-interests p{font-size:var(--body);line-height:1.55}
+.hero-focus .research-interests h3,.hero-focus .skills-title{font-size:var(--body);font-weight:600;margin-bottom:10px}
+.hero-focus .skills-title{margin-top:24px}
+.hero-focus .toolkit{display:block;max-width:40ch}
+.hero-focus .toolkit span{display:inline;font-size:var(--small);line-height:1.8;padding:0}
+.hero-focus .toolkit span:not(:last-child):after{content:', '}
+.hero{padding-bottom:36px}.hero-title{padding-bottom:30px}
+.education{display:block;padding-block:28px 45px}
+.education>h2{padding:0;margin-bottom:28px}
+.timeline{gap:25px}
+.education-entry{grid-template-columns:260px minmax(0,1fr);gap:35px;align-items:center}
+.university-marks{min-height:0;justify-content:flex-start}
+.manchester-mark{width:220px}.setu-mark{width:140px}.nuist-mark{width:92px}.dual-marks{gap:18px}
+.timeline-heading{display:flex;align-items:baseline}
+.timeline h3{font-size:var(--body);max-width:none}
+.education-copy{min-width:0}.date{margin-top:0}
+.work{padding-top:15px}.section-heading{padding-bottom:28px;align-items:center}
+.section-heading h2{font-size:clamp(40px,4.8vw,66px);max-width:20ch}
+.project-card{padding-block:35px 55px}.project-title{margin-bottom:24px}
+.project-stage{gap:4vw}.device-showcase{min-height:340px}
+.design-notes{grid-template-columns:240px 1fr;gap:36px;margin-top:35px}
+#myzooids{padding-top:45px}.robot-stage{gap:6vw}.hardware-flow{margin-top:38px}
+.about{padding-block:60px;grid-template-columns:240px 1fr;gap:36px}
+footer{padding-top:40px}.signature{padding-top:32px}
+@media(max-width:1100px){
+.hero-rails{grid-template-columns:220px 1fr;gap:30px}.profile-portrait{height:310px;max-width:240px}.hero-intro{min-height:310px;display:flex;grid-column:auto}.hero-focus{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:18px 36px}.hero-focus .research-interests{grid-row:span 2;max-width:none}.hero-focus .skills-title{margin:0;align-self:end}.hero-focus .toolkit{max-width:none}
+.education-entry{grid-template-columns:245px minmax(0,1fr);gap:28px}.timeline-heading{display:block}.date{margin-top:5px}.design-notes,.about{grid-template-columns:200px 1fr;gap:26px}
+}
+@media(max-width:650px){
+.hero-rails{grid-template-columns:125px minmax(0,1fr);gap:20px 18px}.profile-portrait{height:210px;max-width:150px;width:100%;object-position:bottom center}.portrait-rail{align-self:start}.hero-intro{min-height:0;gap:18px;display:contents}.welcome-copy{grid-column:2}.welcome-line{font-size:var(--lead);line-height:1.2}.welcome-copy>p:last-child{font-size:var(--body);line-height:1.5}.hero-actions{grid-column:1/-1;margin-top:0;gap:16px}.hero-focus{grid-template-columns:1fr;gap:18px}.hero-focus .research-interests{grid-row:auto}.hero-focus .skills-title{margin-top:0;margin-bottom:0}.hero-focus .research-interests p{font-size:var(--body)}.hero{padding-bottom:22px}.hero-title{padding-bottom:24px}
+.education{padding-block:25px 30px}.education>h2{margin-bottom:25px}.timeline{gap:28px}.education-entry{grid-template-columns:1fr;gap:15px}.manchester-mark{width:190px}.setu-mark{width:130px}.nuist-mark{width:84px}.dual-marks{gap:20px}.timeline-heading{display:block}.date{white-space:normal}
+.section-heading{padding-bottom:18px}.section-heading h2{font-size:var(--head);max-width:12ch}.work-intro{margin-top:14px}.project-card{padding-block:25px 38px}.project-title{margin-bottom:20px}.device-showcase{min-height:0}.design-notes{grid-template-columns:1fr;gap:18px;margin-top:28px}#myzooids{padding-top:32px}.hardware-flow{margin-top:28px}.about{padding-block:40px;grid-template-columns:1fr;gap:18px}.signature{padding-top:28px}
+}

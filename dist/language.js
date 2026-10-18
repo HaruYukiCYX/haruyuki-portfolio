@@ -10,7 +10,7 @@ const translations = [
   ['.yeeme-notes-link', '设计与实现说明'],
   ['.robot-notes-link', '制作说明与工程图片'],
   ['.circuit-link', '查看电路图'],
-  ['.research-interests h3', '我正在好奇的事'],
+  ['.research-interests h3', '正在探索'],
   ['.research-interests p', '我对机器人如何感知周围环境、小型嵌入式系统如何协作，以及人如何与它们交互很感兴趣。我希望继续探索计算机视觉、群体机器人和交互设计，把想法做成有用、也让人愿意使用的系统。'],
   ['.skills-title', '我使用的技能'],
   ['.toolkit span:nth-child(6)', 'PCB 设计 / 3D 原型制作'],
@@ -89,6 +89,7 @@ function setLanguage(lang) {
   languageButton.setAttribute('aria-label', chinese ? 'Switch to English' : '切换到中文');
   languageButton.setAttribute('lang', chinese ? 'en' : 'zh-CN');
   if (window.updateRobotCaption) window.updateRobotCaption();
+  document.querySelector('.personal-links')?.setAttribute('aria-label', chinese ? '个人链接' : 'Personal links');
   const paused = document.querySelector('.hardware-flow').classList.contains('is-paused');
   document.querySelector('.flow-toggle').textContent = chinese ? (paused ? '继续播放' : '暂停图片') : (paused ? 'Play photos' : 'Pause photos');
   document.querySelector('nav').setAttribute('aria-label', chinese ? '主导航' : 'Main navigation');
